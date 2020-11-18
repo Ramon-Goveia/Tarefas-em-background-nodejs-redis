@@ -3,7 +3,7 @@ Projeto de extensão do bootcamp Node.js Web Developer da Digital Innovation One
 
 ### Projeto: Cadastro de usuários e envio de e-mail de confirmação de cadastro.
 
-Nesse projeto é obordado o conceito de processamento assíncrono de tarefas utilizando Node.js e Redis.
+Nesse projeto é abordado o conceito de processamento assíncrono de tarefas utilizando Node.js e Redis.
 
 Tecnologias
   - Node.js
@@ -20,4 +20,4 @@ Instalar dependências
 
 Rodar o servidor local
 
-#### yarn start e yarn queue 
+#### yarn start e yarn queue
