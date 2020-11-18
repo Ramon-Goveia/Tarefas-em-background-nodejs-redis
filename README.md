@@ -11,11 +11,13 @@ Tecnologias
   - Bull — Premium Queue package for handling distributed jobs
 
 
-### Rodar o projeto de pois de baixado
+### Rodar o projeto depois de baixado
 
--  Entrar na pasta node-redis
--  Instalar dependências
-    yarn install
+Entrar na pasta node-redis
+Instalar dependências
 
-- Rodar o servidor local
-   yarn start e yarn queue 
+#### yarn install
+
+Rodar o servidor local
+
+#### yarn start e yarn queue 
