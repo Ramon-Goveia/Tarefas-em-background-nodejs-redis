@@ -8,7 +8,7 @@ Nesse projeto é obordado o conceito de processamento assíncrono de tarefas uti
 Tecnologias
   - Node.js
   - Express
-  - Bull — Premium Queue package for handling distributed jobs
+  - Bull Premium Queue package for handling distributed jobs
 
 
 ### Rodar o projeto depois de baixado
