@@ -5,7 +5,7 @@ Projeto de extensão do bootcamp Node.js Web Developer da Digital Innovation One
 
 Nesse projeto é abordado o conceito de processamento assíncrono de tarefas utilizando Node.js e Redis.
 
-Tecnologias
+Tecnologias:
   - Node.js
   - Express
   - Bull Premium Queue package for handling distributed jobs
