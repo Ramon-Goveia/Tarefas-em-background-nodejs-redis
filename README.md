@@ -14,6 +14,7 @@ Tecnologias
 ### Rodar o projeto depois de baixado
 
 Entrar na pasta node-redis
+
 Instalar dependências
 
 #### yarn install
