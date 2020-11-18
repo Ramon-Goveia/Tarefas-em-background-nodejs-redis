@@ -6,8 +6,8 @@ export default{
         delay: 5000,
         priority: 3
     },
-    async handle({data}) {
-        const {user} = data;
+    async handle({ data }) {
+        const { user } = data;
 
         await MAIL.sendMail({
             from:'DIO <contato@dio.com>',

@@ -14,7 +14,7 @@ const queues = object.values(jobs).map(job => ({
 export default{
     queues,
     add(name, data){
-        const queue = this.queues.find(queue => queue. name == name);
+        const queue = this.queues.find(queue => queue.name === name);
 
         return queue.bull.add(data, queue.options);
     },
