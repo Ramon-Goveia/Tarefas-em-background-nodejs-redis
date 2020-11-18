@@ -17,5 +17,15 @@ export default{
         const queue = this.queues.find(queue => queue. name == name);
 
         return queue.bull.add(data, queue.options);
+    },
+    process(){
+        return this.queues.forEach(queue => {
+            queue.bull.process(queue.handle);
+
+            queue.bull.on('failed', (job, err) => {
+                console.log('job failed', queue.key, job.data);
+                console.log(err)
+            })
+        })
     }
 }
