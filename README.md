@@ -5,3 +5,17 @@ Projeto de extensão do bootcamp Node.js Web Developer da Digital Innovation One
 
 Nesse projeto é obordado o conceito de processamento assíncrono de tarefas utilizando Node.js e Redis.
 
+Tecnologias
+  - Node.js
+  - Express
+  - Bull — Premium Queue package for handling distributed jobs
+
+
+### Rodar o projeto de pois de baixado
+
+-  Entrar na pasta node-redis
+-  Instalar dependências
+    yarn install
+
+- Rodar o servidor local
+   yarn start e yarn queue 
